@@ -17,11 +17,11 @@ main img{
     width:80%;
     margin: 8% 10%;
 }
-h1{
+h1, .button a{
     font-family: 'Poppins', sans-serif;
 }
 .attribution {
-    margin: auto 10%;
+    margin: 10% 10% 15% 10%;
     font-size: 78%;
     text-align: center;
 }
@@ -44,6 +44,19 @@ footer a {
 }
 #facebook{
     padding: 1.5% 3%;
+}
+.button{
+    border: 1px solid #ffffff;
+    border-radius:35px;
+    font-size: 90%;
+    padding: 3%;
+    width:60%;
+    background-color: #ffffff;
+    margin: 5% auto;
+    box-shadow: 0 0 1px #000000;
+}
+.button a{
+    text-decoration: none;
 }
 
 @media screen and (max-width:1440px) and (min-width:320px){
