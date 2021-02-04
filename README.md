@@ -1,5 +1,6 @@
 # Escuela de Desarrollo Web by Platzi - Huddle landing page with single introductory section
 
+Link: https://camilu-png.github.io/landing-page-con-unica-seccion-de-introduccin/
 ![Vista previa del diseño de la página de inicio de Huddle con una única sección introductoria](./design/desktop-preview.jpg)
 
 ## Bienvenida/o 👋

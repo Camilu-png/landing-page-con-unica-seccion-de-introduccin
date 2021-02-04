@@ -1,11 +1,53 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+header img{
+    width:30%;
+    margin-left: 3%;
+}
 body{
     background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+}
+main img{
+    width:80%;
+    margin: 8% 10%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
 }
 .attribution {
-    font-size: 11px;
+    margin: auto 10%;
+    font-size: 78%;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+footer nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    margin:auto 1%;
+    border-radius: 50%;
+    padding: 1.5% 2%;
+
+}
+#facebook{
+    padding: 1.5% 3%;
+}
+
+@media screen and (max-width:1440px) and (min-width:320px){
+    body{
+        background-image: url("../images/bg-desktop.svg");
+    }
 }
