@@ -32,7 +32,6 @@ h1, .button a{
 footer nav{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 footer a {
     display: inline-block;
@@ -62,5 +61,42 @@ footer a {
 @media screen and (max-width:1440px) and (min-width:320px){
     body{
         background-image: url("../images/bg-desktop.svg");
+        background-size: 100% 100%;
+    }
+    header img{
+        width: 14%;
+        margin: 3%;
+    }
+    main img{
+        width: 50%;
+        margin: auto 5%;
+        display: inline-block;
+        clear: both;
+        margin-right: 0;
+    }
+    .attribution{
+        width: 40%;
+        float: right;
+        margin: auto 2%;  
+        text-align: left;
+        font-size: 110%;
+    }
+    .attribution h1{
+        font-size: 220%;
+        margin-bottom: 0;
+    }
+    .button{
+        text-align: center;
+        width: 30%;
+        margin-left: 0;
+    }
+    footer nav{
+        width: 20%;
+        justify-content: flex-end;
+        float:right;
+        margin-right:4%;
+    }
+    footer a{
+        margin-right: 4%;
     }
 }
