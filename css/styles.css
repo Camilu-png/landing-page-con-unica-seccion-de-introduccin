@@ -59,7 +59,18 @@ footer a {
 }
 
 @media screen and (max-width: 1049px) and (min-width: 480px){/*Tablet*/
-
+    p{
+        font-size: x-large;
+    }
+    h1{
+        font-size: xx-large;
+    }
+    .button a{
+        font-size: large;
+    }
+    .button{
+        width: 40%;
+    }
 }
 @media screen and (min-width:1050px){ /*Desktop*/
     body{
